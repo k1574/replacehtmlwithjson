@@ -1,0 +1,29 @@
+{
+  "tag":"html",
+  "attr":{
+    "lang":"en"
+  },
+  "in":[
+    {
+      "tag":"head",
+      "in":[
+        {
+          "tag":"title",
+          "in": [
+            "Hello, ",
+            {
+              "tag":"b",
+              "in":"World"
+            },
+            "!",
+          ],
+        },
+      ],
+    },
+    {
+      "tag":"body",
+      "in":[
+      ],
+    },
+  ],
+}
